@@ -35,7 +35,7 @@ setup(
         'sudachipy',
         'sudachidict_core',
         'uvicorn==0.11.8',
-        'jinja2==2.11.3',
+        'jinja2',
         'aiofiles==0.5.0',
         'fastapi==0.65.2',
         'matplotlib==3.3.1',
@@ -45,7 +45,8 @@ setup(
         'transformers',
         'sentencepiece',
         'seqeval',
-        'segtok'
+        'segtok',
+        'nltk'
     ],
     python_requires='>=3.6',
 )
